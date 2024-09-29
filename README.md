@@ -21,7 +21,7 @@
 <details>
   <summary>Detail</summary>
   
-  1 Background
+ ## 1 Background
 The music beat visualizer project aims to create a dynamic display that visually
 represents audio signals by illuminating LEDs based on the rhythm and ampli-
 tude of the music. By utilizing analog components such as the ADC 0804 and
@@ -29,7 +29,7 @@ IC 8038, the project converts audio frequencies into digital signals, allowing f
 real-time visualization. This engaging device enhances the auditory experience,
 making it ideal for events and personal enjoyment, showcasing the interplay
 between sound and light in an innovative manner.
-2 Motivation
+## 2 Motivation
 I am passionate about developing a tool that helps teach music to visually
 impaired individuals, opening up new avenues for creativity and expression.
 I’m inspired to create a music beat visualizer that translates audio rhythms
@@ -39,7 +39,7 @@ applications of a music beat visualizer, using sound-to-visual conversions to
 provide calming and engaging experiences for individuals in therapy. Together,
 these initiatives reflect my commitment to making music more accessible and
 enjoyable for all.
-3 Our Contribution
+ ## 3 Our Contribution
 My contribution to the music beat visualizer project involves designing and im-
 plementing the entire system using analog components, which distinguishes it
 from typical digital solutions. I am responsible for selecting and integrating key
@@ -49,7 +49,7 @@ steering clear of microcontrollers and digital circuitry. I will also develop ci
 schematics, ensuring effective filtering and amplification for accurate signal pro-
 cessing. My role includes testing and calibrating the system to deliver a unique
 visual experience that showcases music’s rhythm and amplitude in real-time.
-4 Unique Components
+## 4 Unique Components
 • Op-Amp LM386
 • Timer IC-555
 • Darlington Transistor array ULN2803
@@ -63,7 +63,7 @@ visual experience that showcases music’s rhythm and amplitude in real-time.
 • ADC
 • bandpass filters
 • wave-generator IC8038
-5 Limitations
+## 5 Limitations
 The proposed system has several limitations. First, it will not output visual-
 izations for higher frequencies, restricting its effectiveness with certain music
 types. Additionally, the comparator threshold must be set manually, which
@@ -73,7 +73,7 @@ particularly when compared to more advanced techniques like FFT without a
 microcontroller. Furthermore, the system is vulnerable to noise sensitivity and
 signal degradation, which can affect performance. Finally, the lack of color
 variations in the visual output limits the overall user experience.
-6 Assumptions
+## 6 Assumptions
 Several key assumptions underlie this project. It assumes that the audio input
 signal is clean and free from significant noise or interference, ensuring accurate
 detection of beats and amplitudes. The focus is on audio frequencies between
@@ -83,7 +83,7 @@ substituting TL072 with LM358). Additionally, the project assumes that tem-
 perature and environmental humidity will not significantly affect performance
 and that the system will be calibrated with adjustable resistors and capacitors
 to accommodate LED brightness.
-7 References
+## 7 References
 • https://wmpvis.fandom.com/wiki/Windows_Media_Player_Visualization_Wiki
 • https://www.accessengineeringlibrary.com/content/book/9780071816717/chapter/chapter5
 • https://en.m.wikipedia.org/wiki/Music_visualization
