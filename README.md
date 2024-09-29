@@ -1,4 +1,4 @@
-# Write your mini-project title
+# BEATSYNC
 
 <!-- First Section -->
 ## Team Details
@@ -7,13 +7,13 @@
 
   > Semester: 3rd Sem B. Tech. CSE
 
-  > Section: S1/S2
+  > Section: S1
 
-  > Member-1: Name, Roll No., email
+  > Member-1: Name T Amith Teja, Roll No. 231CS159, email amithtejat.231cs159@nitk.edu.in
 
-  > member-2: Name, Roll No., email
+  > member-2: Name Tejavath Shashank, Roll No. 231CS160, email tejavathshashank.231cs160@nitk.edu.in
 
-  > Member-3: Name, Roll No., email
+  > Member-3: Name S V Karthikeya, Roll No. 231CS150, email svkarthikeya.231cs150@nitk.edu.in
 </details>
 
 <!-- Second Section -->
