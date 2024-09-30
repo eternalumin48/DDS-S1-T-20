@@ -22,7 +22,7 @@
   <summary>details</summary>
 
   
- > Motivation:
+ > MOTIVATION
 
   We are passionate about developing a tool that helps teach music to visually
 impaired individuals, opening up new avenues for creativity and expression.We are inspired
@@ -33,7 +33,7 @@ therapy. Together, these initiatives reflect our commitment to making music more
 and enjoyable for all.
 
   
- > Problem Statement:
+ > PROBLEM STATEMENT
  
   The objective of the music beat visualizer project is to create a visual
 representation of audio signals without relying on microcontrollers or digital circuitry. Current
@@ -43,7 +43,7 @@ simplicity and creativity, the goal is to enhance the auditory experience, allow
 the music in real-time while providing an engaging and immersive experience for audiences.
 
 
->  Features:
+>  FEATURES
  
   The music beat visualizer project boasts several key features for design and demo
 evaluation. It utilizes an analog signal processing approach, offering hands-on experience without reliance on digital controllers. The system is capable of real-time visualization, displaying
