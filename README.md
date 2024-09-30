@@ -50,13 +50,13 @@ Overall, the project provides educational value, offering insights into analog e
 signal processing for students and enthusiasts.
 
  
-> References
+> <u> References </u>
 • https://www.electrialtechnology.org/2019/02/analog-to-digital-converter-adc.html
 • https://www.accessengineeringlibrary.com/content/book/9780071816717/chapter/chapter5
 • https://en.m.wikipedia.org/wiki/Music_visualization.
 
  
-> 3 GiHub ID: eternalumin48
+>  GiHub ID: eternalumin48
 
 
 <!-- Third Section -->
