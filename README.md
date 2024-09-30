@@ -28,6 +28,8 @@ We are motivated to explore the therapeutic applications of a music beat visuali
 sound-to-visual conversions to provide calming and engaging experiences for individuals in
 therapy. Together, these initiatives reflect our commitment to making music more accessible
 and enjoyable for all.
+
+  
 > 2 Problem Statement: 
   The objective of the music beat visualizer project is to create a visual
 representation of audio signals without relying on microcontrollers or digital circuitry. Current
@@ -35,6 +37,8 @@ visualizers often depend on complex digital systems that may not effectively cap
 capable of accurately converting audio frequencies into vibrant LED displays. By emphasizing
 simplicity and creativity, the goal is to enhance the auditory experience, allowing users to see
 the music in real-time while providing an engaging and immersive experience for audiences.
+
+
 > 3 Features: 
   The music beat visualizer project boasts several key features for design and demo
 evaluation. It utilizes an analog signal processing approach, offering hands-on experience without reliance on digital controllers. The system is capable of real-time visualization, displaying
@@ -42,10 +46,14 @@ audio signal variations and allowing immediate interaction with the music, enhan
 are developed for optimal filtering and amplification, ensuring accurate signal representation.
 Overall, the project provides educational value, offering insights into analog electronics and
 signal processing for students and enthusiasts.
+>
+> 
 > References
 • https://www.electrialtechnology.org/2019/02/analog-to-digital-converter-adc.html
 • https://www.accessengineeringlibrary.com/content/book/9780071816717/chapter/chapter5
 • https://en.m.wikipedia.org/wiki/Music_visualization.
+>
+> 
 > 3 GiHub ID: eternalumin48
 
 
