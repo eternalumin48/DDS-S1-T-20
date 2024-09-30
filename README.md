@@ -20,7 +20,7 @@
 ## Abstract
 <details>
   <summary>details</summary>
-  > Motivation:
+ Motivation:
   We are passionate about developing a tool that helps teach music to visually
 impaired individuals, opening up new avenues for creativity and expression.We are inspired
 to create a music beat visualizer that translates audio rhythms into captivating visual displays, enhancing both entertainment and performance experiences for everyone. Additionally,
@@ -46,14 +46,14 @@ audio signal variations and allowing immediate interaction with the music, enhan
 are developed for optimal filtering and amplification, ensuring accurate signal representation.
 Overall, the project provides educational value, offering insights into analog electronics and
 signal processing for students and enthusiasts.
->
-> 
+
+ 
 > References
 • https://www.electrialtechnology.org/2019/02/analog-to-digital-converter-adc.html
 • https://www.accessengineeringlibrary.com/content/book/9780071816717/chapter/chapter5
 • https://en.m.wikipedia.org/wiki/Music_visualization.
->
-> 
+
+ 
 > 3 GiHub ID: eternalumin48
 
 
