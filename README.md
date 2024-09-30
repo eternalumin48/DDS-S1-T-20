@@ -56,7 +56,9 @@ signal processing for students and enthusiasts.
 >  References
 
 • https://www.electrialtechnology.org/2019/02/analog-to-digital-converter-adc.html
+
 • https://www.accessengineeringlibrary.com/content/book/9780071816717/chapter/chapter5
+
 • https://en.m.wikipedia.org/wiki/Music_visualization.
 
  
