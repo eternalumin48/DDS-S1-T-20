@@ -40,10 +40,10 @@ audio signal variations and allowing immediate interaction with the music, enhan
 are developed for optimal filtering and amplification, ensuring accurate signal representation.
 Overall, the project provides educational value, offering insights into analog electronics and
 signal processing for students and enthusiasts.
-## 2 References
-• https://wmpvis.fandom.com/wiki/Windows_Media_Player_Visualization_Wiki
+ 2 References
+• https://www.electrialtechnology.org/2019/02/analog-to-digital-converter-adc.html
 • https://www.accessengineeringlibrary.com/content/book/9780071816717/chapter/chapter5
-• https://en.m.wikipedia.org/wiki/Music_visualization
+• https://en.m.wikipedia.org/wiki/Music_visualization.
 3 GiHub ID: eternalumin48
 </details>
 
