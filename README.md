@@ -62,7 +62,9 @@ signal processing for students and enthusiasts.
 • https://en.m.wikipedia.org/wiki/Music_visualization.
 
  
->  GiHub ID: eternalumin48
+>  GiHub ID
+
+ eternalumin48
 
 
 <!-- Third Section -->
