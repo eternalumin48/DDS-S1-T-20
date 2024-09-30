@@ -23,6 +23,7 @@
 
   
  > Motivation:
+
   We are passionate about developing a tool that helps teach music to visually
 impaired individuals, opening up new avenues for creativity and expression.We are inspired
 to create a music beat visualizer that translates audio rhythms into captivating visual displays, enhancing both entertainment and performance experiences for everyone. Additionally,
@@ -32,7 +33,8 @@ therapy. Together, these initiatives reflect our commitment to making music more
 and enjoyable for all.
 
   
- > Problem Statement: 
+ > Problem Statement:
+ 
   The objective of the music beat visualizer project is to create a visual
 representation of audio signals without relying on microcontrollers or digital circuitry. Current
 visualizers often depend on complex digital systems that may not effectively capture the nuances of music’s rhythm and amplitude. This project aims to develop an analog-based solution
@@ -41,7 +43,8 @@ simplicity and creativity, the goal is to enhance the auditory experience, allow
 the music in real-time while providing an engaging and immersive experience for audiences.
 
 
->  Features: 
+>  Features:
+ 
   The music beat visualizer project boasts several key features for design and demo
 evaluation. It utilizes an analog signal processing approach, offering hands-on experience without reliance on digital controllers. The system is capable of real-time visualization, displaying
 audio signal variations and allowing immediate interaction with the music, enhancing audience engagement. A vibrant LED array responds dynamically to different amplitudes and frequencies, creating an appealing visual representation. Additionally, custom circuit schematics
@@ -50,7 +53,7 @@ Overall, the project provides educational value, offering insights into analog e
 signal processing for students and enthusiasts.
 
  
-> <u> References </u>
+>  References
 
 • https://www.electrialtechnology.org/2019/02/analog-to-digital-converter-adc.html
 • https://www.accessengineeringlibrary.com/content/book/9780071816717/chapter/chapter5
