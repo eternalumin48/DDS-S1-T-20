@@ -20,7 +20,9 @@
 ## Abstract
 <details>
   <summary>details</summary>
-> Motivation:
+
+  
+ > Motivation:
   We are passionate about developing a tool that helps teach music to visually
 impaired individuals, opening up new avenues for creativity and expression.We are inspired
 to create a music beat visualizer that translates audio rhythms into captivating visual displays, enhancing both entertainment and performance experiences for everyone. Additionally,
