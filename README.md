@@ -65,9 +65,9 @@ signal processing for students and enthusiasts.
 >  GiHub ID
 
  eternalumin48
-
 </details>
 <!-- Third Section -->
+
 ## Working
 <details>
   <summary>Detail</summary>
