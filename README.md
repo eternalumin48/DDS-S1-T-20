@@ -53,6 +53,7 @@ Overall, the project provides educational value, offering insights into analog e
 signal processing for students and enthusiasts.
 </details>
 
+<!-- Third Section -->
 ## Functional Block Diagram
 <details>
   <summary>Click To See</summary>
@@ -60,7 +61,31 @@ signal processing for students and enthusiasts.
    ![S1-T20 drawio](S1-T20.drawio.png)
 </details>
 
- <!--Third Section-->
+<!-- Fourth Section -->
+## Working
+<details>
+  <summary>Detail</summary>
+
+  > Explain the working of your model with the help of a functional table (compulsory) followed by the flowchart.
+</details>
+
+<!-- Fifth Section -->
+## Logisim Circuit Diagram
+<details>
+  <summary>Detail</summary>
+
+  > Update a neat logisim circuit diagram
+</details>
+
+<!-- Sixth Section -->
+## Verilog Code
+<details>
+  <summary>Detail</summary>
+
+  > Neatly update the Verilog code in code style only.
+</details>
+
+ <!--Seventh Section-->
 ##  References
 <details>
   <summary>Click To See</summary>
@@ -72,29 +97,3 @@ signal processing for students and enthusiasts.
 - https://en.m.wikipedia.org/wiki/Music_visualization.
 </details>
 
-
-
-## Working
-<details>
-  <summary>Detail</summary>
-
-  > Explain the working of your model with the help of a functional table (compulsory) followed by the flowchart.
-</details>
-
-<!-- Fourth Section -->
-## Logisim Circuit Diagram
-<details>
-  <summary>Detail</summary>
-
-  > Update a neat logisim circuit diagram
-</details>
-
-<!-- Fifth Section -->
-## Verilog Code
-<details>
-  <summary>Detail</summary>
-
-  > Neatly update the Verilog code in code style only.
-</details>
-
-## Test bench File
