@@ -53,11 +53,19 @@ Overall, the project provides educational value, offering insights into analog e
 signal processing for students and enthusiasts.
 </details>
 
+## Functional Block Diagram
+<details>
+  <summary>Click To See</summary>
+  
+   ![S1-T20 drawio](https://github.com/user-attachments/assets/f3c197f8-5e1e-40d4-8b6b-5fcf834)
+</details>
+
  <!--Third Section-->
 ##  References
 <details>
   <summary>Click To See</summary>
--  https://www.electrialtechnology.org/2019/02/analog-to-digital-converter-adc.html
+  
+- https://www.electrialtechnology.org/2019/02/analog-to-digital-converter-adc.html
 
 - https://www.accessengineeringlibrary.com/content/book/9780071816717/chapter/chapter5
 
