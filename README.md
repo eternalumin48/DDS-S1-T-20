@@ -66,7 +66,7 @@ signal processing for students and enthusiasts.
 
  eternalumin48
 
-
+</details>
 <!-- Third Section -->
 ## Working
 <details>
