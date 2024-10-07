@@ -58,7 +58,7 @@ signal processing for students and enthusiasts.
 <details>
   <summary>Click To See</summary>
   
-   ![S1-T20 drawio](S1-T20.drawio.png)
+   ![S1-T20 drawio](https://github.com/eternalumin48/DDS-S1-T-20/blob/c90aa96922660bfae0e332aece832964e5c1e0be/Snapshots/S1-T20.drawio.png)
 </details>
 
 <!-- Fourth Section -->
