@@ -74,7 +74,9 @@ signal processing for students and enthusiasts.
 <details>
   <summary>Detail</summary>
 
-  > Update a neat logisim circuit diagram
+  <h4>Main Circuit</h4>
+  
+  ![S1-T20](https://github.com/eternalumin48/DDS-S1-T-20/blob/969378e15fdf68ded27ae2c65f376e46591d0ca3/Logisim/S1-T20.png)
 </details>
 
 <!-- Sixth Section -->
