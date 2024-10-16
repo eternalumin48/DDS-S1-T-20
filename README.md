@@ -66,7 +66,56 @@ signal processing for students and enthusiasts.
 <details>
   <summary>Detail</summary>
 
-  > Explain the working of your model with the help of a functional table (compulsory) followed by the flowchart.
+  The music beat visualizer works by taking the digital representation of frequency and amplitude from a musical signal and lighting up LEDs based on those values. Here's a breakdown of how it works:
+  
+  |Component        |Description     | 
+| ------------- |:-------------:| 
+|  1.input     |  | 
+|  Frequency (6-bit input)   |   Represents the pitch of the music. Higher values = higher-pitched notes.   |   
+| Amplitude (4-bit input) |  Compare the 4-bit amplitude against set values to determine the number of LEDs to light up.      |    
+|   2. Comparators          |                  |
+|  Frequency Comparators   |  Compare the 6-bit frequency against predefined ranges for visual representation.  |
+|    Amplitude Comparators   |    Compare the 4-bit amplitude against set values to determine the number of LEDs to light up.   |
+|   3. LED Display Logic   |       |
+|    LEDs for Amplitude  |   Number of illuminated LEDs corresponds to the amplitude level.   |
+|   LEDs for Frequency |    Illuminated LEDs or colors determined by frequency comparator:  - Low frequency: Left-most LEDs  - Medium frequency: Middle LEDs- High frequency: Right-most LEDs  |
+|    4. State Changes Based on Clock               |     The system updates with a clock signal, re-evaluating inputs on each pulse to adjust the LEDs.     |
+|    5. RGB LED Color Control     |  RGB LEDs used to represent frequencies with different colors: -Red:  Low frequencies - Green: Mid frequencies - Blue: High frequencies |
+|   6. Final Output         |   LED Matrix Display (5x3): The configuration of lit LEDs (number, position, color) reflects the music's frequency and amplitude.             |
+
+Truth Table :
+
+Frequency (6-bit): Represents different ranges of frequency input (e.g., low, mid, high).
+
+Amplitude (4-bit): Controls how many LEDs light up based on the loudness of the music.
+
+LED1-LED5: LEDs represent the output visual display based on the input values.
+
+| Frequency(F)       | Amplitude(A)           | L1 | L2| L3 | L4 | L5|
+| ------------- |:-------------:| -----:|-----:|-------:|-------:|------:|
+| 000000        |          0000 |   0    |   0   | 0       | 0       | 0      |
+| 010001        |         0100 |  1     |0      | 0       | 0       | 0      |
+| 011010         |  1000             | 1      | 1    | 0       | 0       |0        |
+| 101011              |1100               |1       | 1     |   1       | 0     |0        |
+|110100   |1111   |1|1|1|1|1|
+|111111 |1111 |1|1|1|1| 1|
+
+State Diagram
+
+The state diagram represents the system’s operation as the clock ticks:
+
+1. Idle State: Initial state before any input is received.
+
+
+2. Input State: Input frequency and amplitude are read.
+
+
+3. Comparator State: Inputs are compared with predefined thresholds.
+
+
+4. LED Update State: LEDs are updated based on the results of the comparators.
+
+5. Repeat: The system returns to the idle state, waiting for the next clock tick to process the next input values.
 </details>
 
 <!-- Fifth Section -->
