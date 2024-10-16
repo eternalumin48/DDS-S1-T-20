@@ -78,7 +78,7 @@ signal processing for students and enthusiasts.
 |    Amplitude Comparators   |    Compare the 4-bit amplitude against set values to determine the number of LEDs to light up.   |
 |   3. LED Display Logic   |       |
 |    LEDs for Amplitude  |   Number of illuminated LEDs corresponds to the amplitude level.   |
-|   LEDs for Frequency |    Illuminated LEDs or colors determined by frequency comparator:  - Low frequency: Left-most LEDs  - Medium frequency: Middle LEDs- High frequency: Right-most LEDs  |
+|   LEDs for Frequency |    Illuminated LEDs or colors determined by frequency comparator:  <ul><li> Low frequency: Left-most LEDs </li> <li> Medium frequency: Middle LEDs </li><li>High frequency: Right-most LEDs</li> </ul> |
 |    4. State Changes Based on Clock               |     The system updates with a clock signal, re-evaluating inputs on each pulse to adjust the LEDs.     |
 |    5. RGB LED Color Control     |  RGB LEDs used to represent frequencies with different colors: -Red:  Low frequencies - Green: Mid frequencies - Blue: High frequencies |
 |   6. Final Output         |   LED Matrix Display (5x3): The configuration of lit LEDs (number, position, color) reflects the music's frequency and amplitude.             |
