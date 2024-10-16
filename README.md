@@ -460,7 +460,6 @@ The state diagram represents the system’s operation as the clock ticks:
     end
 
     endmodule
-</details>
 
 ### TestBench:
 
@@ -617,6 +616,9 @@ The state diagram represents the system’s operation as the clock ticks:
         $dumpvars(0, tb_music_visualizer);
     end
     endmodule
+</details>
+
+
 
  <!--Seventh Section-->
 ##  References
