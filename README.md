@@ -77,6 +77,14 @@ signal processing for students and enthusiasts.
   <h4>Main Circuit</h4>
   
   ![S1-T20](https://github.com/eternalumin48/DDS-S1-T-20/blob/969378e15fdf68ded27ae2c65f376e46591d0ca3/Logisim/S1-T20.png)
+
+  <h4>6-bit Comparator</h4>
+
+  ![6-bit](https://github.com/eternalumin48/DDS-S1-T-20/blob/c067ba0f5a6b886293000077e98c4d37be41ec03/Logisim/6-bit%20comparator.png)
+
+  <h4>4-bit Comparator</h4>
+  
+  ![4-bit](https://github.com/eternalumin48/DDS-S1-T-20/blob/c067ba0f5a6b886293000077e98c4d37be41ec03/Logisim/4-bit%20comparator.png)
 </details>
 
 <!-- Sixth Section -->
