@@ -140,8 +140,6 @@ The state diagram represents the system’s operation as the clock ticks:
 ## Verilog Code
 <details>
   <summary>Detail</summary>
-
-  > Neatly update the Verilog code in code style only.
 </details>
 
  <!--Seventh Section-->
