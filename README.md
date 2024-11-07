@@ -621,14 +621,111 @@ The state diagram represents the system’s operation as the clock ticks:
 <!--Seventh Section-->
 ## Design
 <details>
-  <summary>Click Here To See</summary>
+  <summary>Details </summary>
+  
+The hardware implementation of the 4x3 LED matrix in this project requires precise frequency and amplitude-based control using comparators and logic gates. The visualizer responds to a real-time audio input, where the LED matrix reflects varying frequency and amplitude values through specific color and brightness levels.
+
+The matrix is organized so that each row represents a distinct frequency range, and each frequency level activates all LEDs in that row and any rows below. To achieve this cascading effect, frequency values are divided into ranges associated with different color rows. By using a series of OR gates, we ensure that any row activated by a certain frequency also lights all rows beneath it. For instance, if the frequency falls within the range for Row 2, both Row 1 and Row 2 will light up. This hierarchical control over the LED rows is achieved by designing custom "greater than" logic (~>) to avoid issues with overlapping ranges that would arise with traditional <= logic.
+
+Amplitude control adds a dynamic layer within each active row. Each row consists of three LEDs, which vary in brightness or "glow" based on the amplitude level. This is implemented with amplitude comparators and AND gates to select one of three LEDs in each row. Each amplitude level (low, medium, high) is assigned to a specific LED within the active color row. For example, when a frequency activates a row, only one of the three LEDs in that row will illuminate, corresponding to the current amplitude level. This combination of amplitude-based selection within frequency-based rows provides nuanced feedback on the sound input.
+
+This setup, which uses 6 comparators, 3 OR gates, 3 AND gates, and 1 NOT gate, provides both frequency range detection and amplitude modulation, resulting in an LED display that synchronizes to music. The design effectively visualizes audio inputs by dynamically adjusting LED colors and brightness, creating a vivid and accurate representation of audio frequency and amplitude variations.
+  
 </details>
 
 
  <!--Eight Section-->
 ## Hardware Implementation
 <details>
-  <summary>Click Here To See</summary>
+  <summary>Details</summary>
+  
+Materials Required
+
+Comparators: 6 x 4-bit comparators (7485 IC) for handling frequency and amplitude comparisons
+
+Logic Gates: 3 OR gates (7432 IC), 3 AND gates (7408 IC), 1 NOT gate (7404 IC)
+
+LEDs: 12 LEDs arranged in a 4x3 matrix for visual display
+
+Resistors: 220Ω resistors (for current limiting with LEDs)
+
+Breadboard: 840-pin (or larger) for accommodating all components
+
+Jumper Wires: To make interconnections
+
+Power Supply: 5V supply to power the ICs and components
+
+
+Step-by-Step Implementation Process
+
+Step 1: Power and Ground Configuration
+
+Start by preparing the breadboard. Connect the 5V and ground (GND) lines along the power rails of the breadboard. This setup will ensure stable power distribution across all ICs, LEDs, and supporting components.
+
+Step 2: Frequency and Amplitude Comparator Configuration
+
+1. Frequency Comparators: Use four of the 7485 comparators to handle the frequency ranges:
+
+Connect the 2-bit frequency input (F1, F0) to the A inputs of each comparator.
+
+Set each comparator’s B inputs to predefined frequency thresholds for each range.
+
+The comparators are arranged in order of frequency ranges so that:
+
+Comparator 1 covers the lowest frequency range, Comparator 2 the next, and so on.
+
+
+Outputs (A>B) from each comparator will activate when the input frequency falls within the specified range.
+
+
+
+2. Amplitude Comparators: Use the remaining two 7485 comparators to manage amplitude levels.
+
+Connect the 2-bit amplitude input (A1, A0) to the A inputs of these comparators.
+
+Set the B inputs to threshold values representing low, medium, and high amplitude.
+
+The comparators output A=B when the amplitude matches the desired range, enabling selective LED lighting based on amplitude.
+
+
+
+
+Step 3: Logic Gate Connections for Frequency Cascading
+
+1. OR Gates: The OR gates will create a cascading effect across frequency ranges:
+
+Connect outputs from each comparator to an OR gate to control all rows below a selected frequency.
+
+For instance, when Frequency Range 2 is detected, the OR gate should activate LEDs in Row 2 and all lower rows, achieving a cascading effect.
+
+
+
+2. Amplitude-based LED Control via AND Gates: To manage amplitude-based LED selection within each frequency row, utilize the AND gates:
+
+Each AND gate will combine the output of a frequency range with a specific amplitude level to activate only one LED in each row.
+
+For example, if Frequency 1 and Amplitude 2 are selected, only the second LED in the first row should light up.
+
+
+
+3. NOT Gate for Comparison Adjustment: If necessary, use a NOT gate to implement a strict "greater than" (~>) logic, avoiding any unintended <= cases and ensuring accurate row activation based on frequency.
+
+
+
+Step 4: LED Matrix Setup and Resistor Connection
+
+Place the LEDs in a 4x3 matrix on the breadboard, positioning each row to represent a frequency range. Insert a 220Ω resistor in series with each LED to limit current, protecting both the LEDs and power source.
+
+Step 5: Final Testing and Troubleshooting
+
+Connect the outputs from the comparators and logic gates to the LEDs. Power the circuit and test by varying frequency and amplitude inputs. Verify that:
+
+The correct LEDs light up based on frequency and amplitude conditions.
+
+Each row activates all LEDs below it, with only one LED in the active row lit according to the amplitude.
+
+
+This systematic approach will provide a fully functional 4x3 LED matrix visualizer that dynamically adjusts based on real-time frequency and amplitude inputs.
 </details>
 
 <!--Nineth Section-->
