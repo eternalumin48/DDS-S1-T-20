@@ -618,9 +618,20 @@ The state diagram represents the system’s operation as the clock ticks:
     endmodule
 </details>
 
+<!--Seventh Section-->
+## Design
+<details>
+  <summary>Click Here To See</summary>
+</details>
 
 
- <!--Seventh Section-->
+ <!--Eight Section-->
+## Hardware Implementation
+<details>
+  <summary>Click Here To See</summary>
+</details>
+
+<!--Nineth Section-->
 ##  References
 <details>
   <summary>Click To See</summary>
